@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import logo from './logo.svg'
 import './App.css'
 import TestComponent from './components/TestComponent'
+import AnotherComponent from './components/AnotherComponent'
 
 class App extends Component {
     render() {
@@ -21,6 +22,7 @@ class App extends Component {
                         Learn React
                     </a>
                     <TestComponent text="Testing, testing.." />
+                    <AnotherComponent text="This is another component" />
                 </header>
             </div>
         )
